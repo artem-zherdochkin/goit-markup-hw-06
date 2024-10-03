@@ -48,11 +48,16 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-btn" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="section section-main">
+      <section class="section section-main hidden">
         <div class="container container-main">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="main-button" data-modal-open>
@@ -61,7 +66,7 @@
         </div>
       </section>
 
-      <section class="section section-values">
+      <section class="section section-values hidden">
         <div class="container">
           <h2 class="section-title visually-hidden">Values</h2>
           <ul class="section-list">
@@ -117,7 +122,7 @@
         </div>
       </section>
 
-      <section class="section section-team">
+      <section class="section section-team hidden">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="section-list">
@@ -293,7 +298,7 @@
         </div>
       </section>
 
-      <section class="section section-portfolio">
+      <section class="section section-portfolio hidden">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="section-list">
@@ -416,7 +421,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer">
         <div class="container-footer-logo">
           <a class="logo footer-logo" href="./index.html"
@@ -483,7 +488,7 @@
       </div>
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
