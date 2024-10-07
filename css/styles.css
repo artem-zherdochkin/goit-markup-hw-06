@@ -1,3 +1,5 @@
+/* ================   DEFAULT STYLES   ================ */
+
 .hidden {
   display: none;
 }
@@ -62,7 +64,7 @@ button {
   overflow: hidden;
 }
 
-/* ##########   C O M M O N   ########## */
+/* ================   COMMON STYLES   ================ */
 
 .container {
   max-width: 320px;
@@ -83,7 +85,7 @@ button {
   }
 }
 
-/* ##########   H E A D E R   ########## */
+/* ================   HEADER STYLES   ================ */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -228,7 +230,7 @@ button {
   }
 }
 
-/* ##########   M O B I L E   M E N U   ########## */
+/* ================   MOBILE MENU STYLES   ================ */
 
 .mobile-menu {
   position: fixed;
@@ -390,7 +392,7 @@ button {
   }
 }
 
-/* ##########   S E C T I O N   M A I N   ########## */
+/* ================   MAIN SECTION STYLES   ================ */
 
 .section-main {
   background-color: #2e2f42;
@@ -505,10 +507,10 @@ button {
   }
 }
 
-/* ##########   S E C T I O N   V A L U E S   ########## */
+/* ================   VALUES SECTION STYLES   ================ */
 
 .section-values {
-  max-width: 768px;
+  max-width: 320px;
   padding: 96px 0;
   margin: 0 auto;
 }
@@ -591,7 +593,7 @@ button {
   }
 }
 
-/* ##########   S E C T I O N   T E A M   ########## */
+/* ================   TEAM SECTION STYLES   ================ */
 
 .section-team {
   background-color: #f4f4fd;
@@ -708,11 +710,11 @@ button {
   }
 }
 
-/* ##########   S E C T I O N   P O R T F O L I O   ########## */
+/* ================   PORTFOLIO SECTION STYLES   ================ */
 
 .section-portfolio {
   padding: 96px 0;
-  max-width: 1440px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -736,7 +738,7 @@ button {
 
 .portfolio-section-item {
   background-color: #fff;
-  width: 100%;
+  max-width: 100%;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -819,3 +821,224 @@ button {
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
 }
+
+/* ================   FOOTER STYLES   ================ */
+
+.page-footer {
+  max-width: 320px;
+  padding: 96px 0;
+  margin: 0 auto;
+  background-color: #2e2f42;
+}
+
+.container.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  margin: 0 auto;
+}
+
+.container-footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin: 0 auto 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 288px;
+}
+
+.container-footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 208px;
+  height: 40px;
+}
+
+.footer-social-list {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-social-list-icon {
+  fill: #f4f4fd;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.container-footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-subscribe-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-subscribe-form-input {
+  width: 288px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  opacity: 0.3;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footer-subscribe-form-input:focus {
+  outline: none;
+  border-color: #31d0aa;
+}
+
+.footer-subscribe-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-form-btn-icon {
+  fill: #fff;
+}
+
+.footer-subscribe-form-btn:focus {
+  background-color: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    max-width: 768px;
+    padding: 96px 92px;
+  }
+  .container.footer {
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .container-footer-logo {
+    width: 264px;
+  }
+  .footer-logo {
+    margin-left: 0;
+  }
+  .container-footer-social {
+    width: 208px;
+    align-items: flex-start;
+  }
+  .container-footer-subscribe {
+    align-items: flex-start;
+    width: 453px;
+  }
+  .footer-subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-subscribe-form-input {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .page-footer {
+    max-width: 1440px;
+    padding: 100px 0;
+  }
+  .container.footer {
+    gap: 0;
+  }
+  .container-footer-logo {
+    margin-right: 120px;
+  }
+  .container-footer-subscribe {
+    margin-left: auto;
+  }
+  .footer-subscribe-form-input {
+    opacity: 1;
+  }
+  .footer-subscribe-form-input::placeholder {
+    opacity: 1;
+  }
+}
+
+/* ================   MODAL FORM STYLES   ================ */
