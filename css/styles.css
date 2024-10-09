@@ -510,7 +510,6 @@ button {
 /* ================   VALUES SECTION STYLES   ================ */
 
 .section-values {
-  max-width: 320px;
   padding: 96px 0;
   margin: 0 auto;
 }
@@ -549,7 +548,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .section-values {
-    max-width: 768px;
     padding: 96px 0;
   }
   .values-section-list {
@@ -566,7 +564,6 @@ button {
 
 @media screen and (min-width: 1158px) {
   .section-values {
-    max-width: 1440px;
     padding: 120px 0;
   }
   .values-icon-bg {
@@ -598,7 +595,6 @@ button {
 .section-team {
   background-color: #f4f4fd;
   padding: 96px 0;
-  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -622,7 +618,6 @@ button {
 
 .team-section-item {
   background-color: #fff;
-  max-width: 100%;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -686,21 +681,19 @@ button {
 @media screen and (min-width: 768px) {
   .section-team {
     padding: 96px 92px;
-    max-width: 768px;
   }
   .team-section-list {
     column-gap: 24px;
     row-gap: 64px;
   }
   .team-section-item {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .section-team {
     padding: 120px 0;
-    max-width: 1440px;
   }
   .team-section-list {
     gap: 24px;
@@ -714,7 +707,6 @@ button {
 
 .section-portfolio {
   padding: 96px 0;
-  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -791,7 +783,6 @@ button {
 @media screen and (min-width: 768px) {
   .section-portfolio {
     padding: 96px 0;
-    max-width: 768px;
   }
   .portfolio-section-list {
     column-gap: 24px;
@@ -805,7 +796,6 @@ button {
 @media screen and (min-width: 1158px) {
   .section-portfolio {
     padding: 120px 0;
-    max-width: 1440px;
   }
   .portfolio-section-list {
     column-gap: 24px;
@@ -825,7 +815,6 @@ button {
 /* ================   FOOTER STYLES   ================ */
 
 .page-footer {
-  max-width: 320px;
   padding: 96px 0;
   margin: 0 auto;
   background-color: #2e2f42;
@@ -987,7 +976,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .page-footer {
-    max-width: 768px;
     padding: 96px 92px;
   }
   .container.footer {
@@ -1021,7 +1009,6 @@ button {
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    max-width: 1440px;
     padding: 100px 0;
   }
   .container.footer {
